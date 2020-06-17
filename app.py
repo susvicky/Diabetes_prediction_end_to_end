@@ -23,7 +23,7 @@ def predict():
     if(prediction==0):
         output="YOU ARE SAFE CONGRATULATIONS:)"
     else:
-        output="OOPS!!!!!YOU ARE A DIABITIC PATIENT"
+        output="OOPS!!!!!YOU ARE A DIABETIC PATIENT"
     
     return render_template('index.html', prediction_text=output.format())
 
